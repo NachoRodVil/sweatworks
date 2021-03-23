@@ -3,8 +3,6 @@ import { Route, Switch } from "react-router-dom";
 import Index from "./Index";
 import { Navbar, Nav } from "react-bootstrap";
 
-console.log("main");
-
 function Main() {
     return (
         <div className="body_background">

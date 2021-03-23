@@ -204,18 +204,20 @@
 }
 
 .apocalypse-header-title {
-    padding: 20px 0 20px 0;
+    padding: 20px 0 20px 4%;
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: 30px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 
 .apocalypse-header-card {
     margin: 8% 0 20px 0;
     background-image: url("https://i.imgur.com/fBEFqkE.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .apocalypse-header-subtitles {
@@ -226,4 +228,10 @@
     justify-content: center;
     text-align: center;
     display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    .fadeshow1 {
+        display: none;
+    }
 }

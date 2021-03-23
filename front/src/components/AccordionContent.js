@@ -8,7 +8,7 @@ function AccordionContent({ user, num }) {
                 <Row className="header-content-1" style={{ margin: "0px" }}>
                     <Col xs lg="12" style={{ margin: "0px" }}>
                         <Row>
-                            <Col xs lg="1" className="header-content-1">
+                            <Col xs lg="1" className="header-content-1 fadeshow1">
                                 {Number(num) + 1}
                             </Col>
                             <Col sm xs="12" lg="1" className="header-content-1">
