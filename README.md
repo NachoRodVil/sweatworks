@@ -1,6 +1,8 @@
 # sweatworks
 Sweatwork challenge
 
+(The .env file was left on purpose to facilitate test. I know that it should not be uploaded to git.)
+
 
 1) First run this command on the root folder:
 
@@ -19,3 +21,5 @@ npm start
 ```
 npm start
 ```
+
+
